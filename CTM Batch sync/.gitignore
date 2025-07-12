@@ -1,0 +1,81 @@
+# ====================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ====================================
+
+# Environment files
+.env
+.env.*
+*.env
+.environment
+
+# Configuration files with secrets
+secrets.py
+config.py
+settings_local.py
+
+# ====================================
+# GOOGLE CLOUD CREDENTIALS
+# ====================================
+
+# Service account files
+service-account-key.json
+service_account.json
+gcp-key.json
+*.json
+
+# ====================================
+# API KEYS & CREDENTIALS
+# ====================================
+
+# API key files
+*api_key*
+*secret*
+*password*
+*credentials*
+*token*
+
+# ====================================
+# PYTHON BASICS
+# ====================================
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ====================================
+# DATA FILES (potentially sensitive)
+# ====================================
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+data/
+logs/
+*.log
+
+# ====================================
+# IDE FILES
+# ====================================
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ====================================
+# OS FILES
+# ====================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
